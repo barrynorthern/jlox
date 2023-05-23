@@ -1,0 +1,4 @@
+// a sample lox program
+(( )){} // grouping stuff
+!*+-/=<> <= == // operators
+print "hello world";
