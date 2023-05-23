@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+group 'com.craftinginterpreters'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+
+// Define the main class for the application
+mainClassName = 'com.craftinginterpreters.lox.Lox'
+
+// Source code location
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+    }
+}
