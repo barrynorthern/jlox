@@ -3,3 +3,5 @@
 !*+-/=<> <= == // operators
 22 8000.5 3.1415926 // numbers
 print "hello world";
+var orchid = 34;
+print orchid;
