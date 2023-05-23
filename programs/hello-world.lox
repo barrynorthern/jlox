@@ -1,4 +1,5 @@
 // a sample lox program
 (( )){} // grouping stuff
 !*+-/=<> <= == // operators
+22 8000.5 3.1415926 // numbers
 print "hello world";
