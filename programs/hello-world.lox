@@ -3,5 +3,8 @@
 !*+-/=<> <= == // operators
 22 8000.5 3.1415926 // numbers
 print "hello world";
+/* multi line comments
+are happily
+now supported :) */
 var orchid = 34;
 print orchid;
